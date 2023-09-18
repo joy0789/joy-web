@@ -1,0 +1,97 @@
+/* Style */
+
+
+ul,li{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+
+body{
+    background-color: aliceblue;
+
+
+}
+header{
+    background-color:wheat;
+    border-radius: 600px;
+    padding: 32px 50px 30px 60px;
+    display: flex;
+    /* gap: 900px; */
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+/* 
+justify content,align item this is applicable only for display flex
+
+*/
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+.search-bar{
+    border: none;
+    border: radius 50px;
+ 
+}
+input{
+    border: none;
+    padding: 16px 30px;
+    border-radius: 50px;
+}
+
+.fruit{
+    text-align: center;
+}
+
+footer{
+    background-color: black; 
+    align-items: center;
+    gap: 60px;
+
+    
+}
+
+.text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.ABC{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+/* 
+padding 
+
+top 
+right 
+bottom 
+left
+
+*/
+
+
+
+
+
+
+
